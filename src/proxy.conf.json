@@ -1,0 +1,8 @@
+{
+    "/api/": {
+        "target": "http://developers.gictsystems.com",
+        "changeOrigin": true,
+        "secure": false,
+        "logLevel": "debug"
+    }
+}

@@ -28,6 +28,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -70,9 +71,13 @@
           "configurations": {
             "production": {
               "browserTarget": "gict:build:production"
+              
+              
             },
             "development": {
-              "browserTarget": "gict:build:development"
+              "browserTarget": "gict:build:development",
+              "proxyConfig": "src/proxy.conf.json"
+              
             }
           },
           "defaultConfiguration": "development"
@@ -96,6 +101,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -103,5 +109,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "64662528-1c05-42f2-9efe-3fa34834de3c"
   }
 }
